@@ -1,13 +1,13 @@
-# Day Planner
----------------------------
-This application  serves as a daily planner to create a schedule for your work day.
+# Work Day Scheduler
+This application  serves as a daily planner to create a schedule for your day at work.
 
 
 ### Motivation
 ---------------------------
+This is intended to keep you organized throughout the day while you are at work with upcoming meetings or tasks that needs to be completed at a certine time during that day.
 
 
-## Links
+### Links
 ---------------------------
 
 [GitHub Pages](https://ettad.github.io/day-planner/)
