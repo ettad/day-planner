@@ -1,18 +1,21 @@
 # Day Planner
+---------------------------
 This application  serves as a daily planner to create a schedule for your work day.
 
-# **Password Generator**
 
-## **Purpose Of The Project**
+### Motivation
+---------------------------
 
 
+## Links
+---------------------------
 
-## **Screenshot/Images**
+[GitHub Pages](https://ettad.github.io/day-planner/)
 
+[GitHub Repo](https://github.com/ettad/day-planner)
+
+
+### Screenshot/Images
+---------------------------
 ![Webpage Screenshot]
 
-## **Links To The Page**
-
-[Project Web Page]
-
-[GitHub Repository]
