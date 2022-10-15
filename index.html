@@ -18,21 +18,86 @@
       href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
     <title>Work Day Scheduler</title>
   </head>
 
   <body>
+
     <header class="jumbotron">
       <h1 class="display-3">Work Day Scheduler</h1>
       <p class="lead">A simple calendar app for scheduling your work day</p>
       <p id="currentDay" class="lead"></p>
     </header>
+
+
     <div class="container">
-      <!-- Timeblocks go here -->
+      <!-- Timeblocks -->
+      <div class="row time-block">
+        <div class="col-1 hour">8am</div>
+        <textarea id="8" class="col-10 description" placeholder="Task"></textarea>
+        <button class="col-1 saveBtn" onclick="saveText(8)"><i class="fa-solid fa-floppy-disk saveBtn"></i></button>
+      </div>
+
+      <div class="row">
+        <div class="col-1 hour">9am</div>
+        <textarea id="9" class="col-10" placeholder="Task"></textarea>
+        <button class="col-1 saveBtn" onclick="saveText(9)"><i class="fa-solid fa-floppy-disk"></i></button>
+      </div> 
+
+      <div class="row">
+        <div class="col-1 hour">10am</div>
+        <textarea id="10" class="col-10" placeholder="Task"></textarea>
+        <button class="col-1 saveBtn" onclick="saveText(10)"><i class="fa-solid fa-floppy-disk"></i></button>
+      </div>
+
+      <div class="row">
+        <div class="col-1 hour">11am</div>
+        <textarea id="11" class="col-10" placeholder="Task"></textarea>
+        <button class="col-1 saveBtn" onclick="saveText(11)"><i class="fa-solid fa-floppy-disk"></i></button>
+      </div>
+
+      <div class="row">
+        <div class="col-1 hour">12pm</div>
+        <textarea id="12" class="col-10" placeholder="Task"></textarea>
+        <button class="col-1 saveBtn" onclick="saveText(12)"><i class="fa-solid fa-floppy-disk"></i></button>
+      </div>
+
+      <div class="row">
+        <div class="col-1 hour">1pm</div>
+        <textarea id="13" class="col-10" placeholder="Task"></textarea>
+        <button class="col-1 saveBtn" onclick="saveText(13)"><i class="fa-solid fa-floppy-disk"></i></button>
+      </div>
+
+      <div class="row">
+        <div class="col-1 hour">2pm</div>
+        <textarea id="14" class="col-10" placeholder="Task"></textarea>
+        <button class="col-1 saveBtn" onclick="saveText(14)"><i class="fa-solid fa-floppy-disk"></i></button>
+      </div>
+
+      <div class="row">
+        <div class="col-1 hour">3pm</div>
+        <textarea id="15" class="col-10" placeholder="Task"></textarea>
+        <button class="col-1 saveBtn" onclick="saveText(15)"><i class="fa-solid fa-floppy-disk"></i></button>
+      </div>
+
+      <div class="row">
+        <div class="col-1 hour">4pm</div>
+        <textarea id="16" class="col-10" placeholder="Task"></textarea>
+        <button class="col-1 saveBtn" onclick="saveText(16)"><i class="fa-solid fa-floppy-disk"></i></button>
+      </div>
+
+      <div class="row">
+        <div class="col-1 hour">5pm</div>
+        <textarea id="17" class="col-10" placeholder="Task"></textarea>
+        <button class="col-1 saveBtn" onclick="saveText(17)"><i class="fa-solid fa-floppy-disk"></i></button>
+      </div>
+
     </div>
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="./assets/js/script.js"></script>
+    <script src="https://kit.fontawesome.com/11c61229eb.js" crossorigin="anonymous"></script>
   </body>
 </html>
