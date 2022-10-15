@@ -1,11 +1,10 @@
 var todaysDate = moment().format('dddd, MMM Do YYYY');
 $("#currentDay").html(todaysDate);
 
-// var currentTime = moment().hour();
-var currentTime =12;
+var currentTime = moment().hour();
 
 $(document).ready(function () {
-    
+
         // checks time using id and assign color code to each timeblock
         function timeBlockColor () {
             $(".time-block").each(function () {
