@@ -1,17 +1,30 @@
 var todaysDate = moment().format('dddd, MMM Do YYYY');
 $("#currentDay").html(todaysDate);
 
-var currentTime = moment().hour();
-console.log(currentTime);
+// var currentTime = moment().hour();
+var currentTime =12;
 
 $(document).ready(function () {
+    
+        // checks time using id and assign color code to each timeblock
+        function timeBlockColor () {
+            $(".time-block").each(function () {
+                var blockTime = parseInt($(this).attr("id").split("at")[1]);
+    
+                if (blockTime < currentTime) {
+                    $(this).addClass("past");
+                }
+                else if (blockTime === currentTime) {
+                    $(this).addClass("present");
+                }
+                else {
+                    $(this).addClass("future");
+                }
 
-        // function timeBlockColor () {
-
-
-        // }
-
-        // timeBlockColor();
+            })
+        }
+        //calls the time block function
+        timeBlockColor();
 
 
         // code block save task for each hour
