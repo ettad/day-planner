@@ -2,6 +2,7 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   line-height: 1;
+  background-color: black
 }
 
 textarea{
@@ -16,7 +17,7 @@ textarea{
 .jumbotron {
   text-align: center;
   background-color: transparent;
-  color: black;
+  color: rgb(255, 189, 57);
   border-radius: 0;
   border-bottom: 10px solid black;
 }
@@ -33,13 +34,13 @@ textarea{
 .row {
   white-space: pre-wrap;
   height: 80px;
-  border-top: 1px solid white;;
+  border-top: 1px solid rgb(255, 189, 57);
 }
 
 .hour {
-  background-color: #ffffff;
+  background-color: rgb(255, 189, 57);
   color: #000000;
-  border-top: 1px dashed #000000;
+  border-top: 1px dashed rgb(255, 189, 57);
 }
 
 .past {
