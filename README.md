@@ -10,12 +10,13 @@ This is intended to keep you organized throughout the day while you are at work 
 ### Links
 ---------------------------
 
-[GitHub Pages](https://ettad.github.io/day-planner/)
+[GitHub Pages](https://ettad.github.io/work-day-scheduler/)
 
 [GitHub Repo](https://github.com/ettad/day-planner)
 
 
 ### Screenshot/Images
 ---------------------------
-![Webpage Screenshot]
+![Webpage Screenshot](./assets/images/work-day-scheduler_.png)
+
 
